@@ -1,0 +1,60 @@
+{
+  "prestataires": [
+    {
+      "id": 1,
+      "nom": "Ahmed",
+      "metier": "Plombier",
+      "ville": "Casablanca",
+      "image": "../Assets/images/plombier.png"
+    },
+    {
+      "id": 2,
+      "nom": "Sara",
+      "metier": "Électricienne",
+      "ville": "Rabat",
+      "image": "../Assets/images/electricien.jpg"
+    },
+    {
+      "id": 3,
+      "nom": "Youssef",
+      "metier": "Menuisier",
+      "ville": "Marrakech",
+      "image": "../Assets/images/menuisier.png"
+    },
+    {
+      "id": 4,
+      "nom": "Khadija",
+      "metier": "Coiffeuse",
+      "ville": "Fès",
+      "image": "../Assets/images/coiffeuse.jpg"
+    },
+    {
+      "id": 5,
+      "nom": "Omar",
+      "metier": "Peintre",
+      "ville": "Tanger",
+      "image": "../Assets/images/peintre.jpg"
+    },
+    {
+      "id": 6,
+      "nom": "Imane",
+      "metier": "Couturière",
+      "ville": "Agadir",
+      "image": "../Assets/images/couturiere.jpg"
+    },
+    {
+      "id": 7,
+      "nom": "Hassan",
+      "metier": "Technicien Climatisation",
+      "ville": "Salé",
+      "image": "../Assets/images/climatisation.jpg"
+    },
+    {
+      "id": 8,
+      "nom": "Nadia",
+      "metier": "Femme de ménage",
+      "ville": "Kénitra",
+      "image": "../Assets/images/menage.jpg"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+.header {
+  background-color:black;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #facc15;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.auth-buttons a {
+  margin-left: 10px;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-outline {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-solid {
+  background-color: #facc15;
+  color: black;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* card ديال logo */
+.logo a {
+  background: rgb(20, 20, 20);
+  padding: 14px 22px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 2px solid  #facc15; /* نفس لون المشروع */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* image ديال logo */
+.logo img {
+  height: 40px;   /* 👈 هنا كيبان كبير */
+  width: auto;
+  display: block;
+}
+
+/* hover effect */
+.logo a:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
