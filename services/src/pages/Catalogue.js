@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 
-// Import images
 import plombierImg from "../Assets/images/plombier.jpg";
 import electricienImg from "../Assets/images/electricien.jpg";
 import menageImg from "../Assets/images/menage.jpg";
@@ -11,7 +10,6 @@ import climatisationImg from "../Assets/images/climatisation.jpg";
 import couturierImg from "../Assets/images/couturier.jpg";
 import peintreImg from "../Assets/images/peintre.jpg";
 
-// Prestataires data avec images importées
 const prestataires = [
   { id: 1, nom: "Ahmed", metier: "Plombier", ville: "Casablanca", image: plombierImg },
   { id: 2, nom: "Sara", metier: "Électricienne", ville: "Rabat", image: electricienImg },
@@ -28,10 +26,8 @@ const Catalogue = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
 
-  // Extraction des villes uniques
   const cities = useMemo(() => [...new Set(prestataires.map(p => p.ville))], []);
 
-  // Filtrage dynamique avec useMemo pour optimisation
   const filteredPrestataires = useMemo(() => {
     return prestataires.filter((p) => {
       const matchSearch =
@@ -47,7 +43,6 @@ const Catalogue = () => {
   return (
     <div style={{ display: "flex", gap: "20px", padding: "20px" }}>
 
-      {/* SIDEBAR */}
       <aside style={{ width: "250px", borderRight: "1px solid #ddd" }}>
         <h3>Choisissez votre prestataire: </h3>
 
@@ -73,7 +68,6 @@ const Catalogue = () => {
         </select>
       </aside>
 
-      {/* CONTENU */}
       <main style={{ flex: 1 }}>
         <div
           style={{

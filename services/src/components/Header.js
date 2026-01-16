@@ -7,22 +7,19 @@ function Header() {
   return (
     <header className="header">
       <div className="header-container">
-
-        {/* Logo image */}
+        {/* logo */}
         <div className="logo">
           <Link to="/">
             <img src={logo} alt="ServicesPro Logo" />
           </Link>
         </div>
 
-        {/* Navigation */}
         <nav className="nav-links">
           <Link to="/">Accueil</Link>
           <Link to="/services">Services</Link>
           <Link to="/contact">Contact</Link>
         </nav>
 
-        {/* Auth */}
         <div className="auth-buttons">
           <Link to="/login-artisan" className="btn-outline">
             Connexion

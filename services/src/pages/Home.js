@@ -85,7 +85,6 @@ const handleLogout = () => {
         </div>
       </section>
 
-        {/* Prestataires disponibles */}
         {/* <section className="services">
         <h2>Nos Prestataires</h2>
         <p className="subtitle">
