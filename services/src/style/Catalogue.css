@@ -1,0 +1,563 @@
+/* Catalogue.css - Version avec icones horizontales et cartes carrées */
+
+.catalogue-container {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section des filtres */
+.filters-section {
+  margin-bottom: 30px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.search-filter {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 300px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px 20px;
+  border: 2px solid #e8e8e8;
+  border-radius: 12px;
+  font-size: 16px;
+  background: #f8f9fa;
+  transition: all 0.3s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #2bb0a6;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(43, 176, 166, 0.1);
+}
+
+.select-box {
+  min-width: 250px;
+}
+
+.city-select {
+  width: 100%;
+  padding: 15px 20px;
+  border: 2px solid #e8e8e8;
+  border-radius: 12px;
+  font-size: 16px;
+  background: #f8f9fa;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.city-select:focus {
+  outline: none;
+  border-color: #2bb0a6;
+  box-shadow: 0 0 0 3px rgba(43, 176, 166, 0.1);
+}
+
+/* Section des icones horizontales */
+.services-horizontal-section {
+  position: relative;
+}
+
+.services-title {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.title-text {
+  color: #2bb0a6;
+}
+
+.title-subtext {
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.scroll-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.scroll-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #e8e8e8;
+  background: white;
+  color: #2bb0a6;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.scroll-btn:hover {
+  background: #2bb0a6;
+  color: white;
+  border-color: #2bb0a6;
+}
+
+.services-scroll-container {
+  flex: 1;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding: 15px 0;
+}
+
+.services-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.services-floating-track {
+  display: flex;
+  gap: 15px;
+  padding: 5px 0;
+  min-width: min-content;
+}
+
+/* Style des icones de service horizontales */
+.service-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 15px;
+  min-width: 110px;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  animation: float 3s ease-in-out infinite;
+}
+
+.service-icon-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon-item.active {
+  border-color: currentColor;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.service-icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  color: white;
+  font-size: 22px;
+  transition: transform 0.3s ease;
+}
+
+.service-icon-item:hover .service-icon-circle {
+  transform: scale(1.1);
+}
+
+.service-icon-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Animation de flottement */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Section des cartes CARRÉES */
+.cards-section {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.results-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.results-info h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.results-count {
+  color: #facc15;
+  font-weight: 500;
+}
+
+.clear-filter-btn {
+  padding: 10px 20px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.clear-filter-btn:hover {
+  background: #c0392b;
+  transform: translateY(-2px);
+}
+
+.square-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.square-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 450px; 
+}
+
+.square-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.square-card-image {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.square-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.square-card:hover .square-card-image img {
+  transform: scale(1.05);
+}
+
+.service-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.rating-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f39c12;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 2;
+}
+
+.unavailable-badge {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(231, 76, 60, 0.9);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.square-card-content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.square-card-title {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.square-card-metier {
+  margin: 0 0 8px 0;
+  color: #2bb0a6;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.square-card-ville {
+  margin: 0 0 8px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.square-card-tarif {
+  margin: 0 0 8px 0;
+  color: #27ae60;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.square-card-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 10px 0;
+  color: #f39c12;
+  font-size: 14px;
+}
+
+.square-card-rating span {
+  font-weight: 600;
+}
+
+.square-card-description {
+  margin: 0 0 15px 0;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+/* Actions de la carte */
+.card-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.square-card-btn {
+  flex: 2;
+  padding: 12px;
+  background: linear-gradient(135deg, #facc15, black);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.square-card-btn:hover {
+  background: linear-gradient(135deg, #1d8a82, #2bb0a6);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(43, 176, 166, 0.3);
+}
+
+.contact-btn {
+  flex: 1;
+  padding: 12px;
+  background: #f8f9fa;
+  color: #333;
+  border: 2px solid #e8e8e8;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #e9ecef;
+  border-color: #facc15;
+  color: #facc15;
+}
+
+/* Message aucun résultat */
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 40px;
+  color: #666;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.no-results p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.reset-btn {
+  padding: 12px 30px;
+  background: #2bb0a6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.reset-btn:hover {
+  background: #249c94;
+  transform: translateY(-2px);
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .square-cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-filter {
+    flex-direction: column;
+  }
+  
+  .search-box,
+  .select-box {
+    width: 100%;
+    min-width: auto;
+  }
+  
+  .scroll-btn {
+    display: none;
+  }
+  
+  .services-scroll-container {
+    margin: 0 -20px;
+    padding: 0 20px;
+  }
+  
+  .services-floating-track {
+    gap: 10px;
+  }
+  
+  .service-icon-item {
+    min-width: 100px;
+    padding: 15px 10px;
+  }
+  
+  .square-cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+  }
+  
+  .square-card {
+    height: 430px;
+  }
+}
+
+@media (max-width: 576px) {
+  .catalogue-container {
+    padding: 15px;
+  }
+  
+  .filters-section,
+  .cards-section {
+    padding: 20px;
+  }
+  
+  .results-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .square-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .square-card {
+    height: 420px;
+    max-width: 100%;
+  }
+  
+  .card-actions {
+    flex-direction: column;
+  }
+  
+  .square-card-btn,
+  .contact-btn {
+    width: 100%;
+  }
+}
+
+/* phrase */
+.services-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color:black;
+  margin: 40px 0 10px;
+}
+
+.services-subtitle {
+  text-align: center;
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 35px;
+  font-weight: 400;
+}

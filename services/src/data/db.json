@@ -5,56 +5,144 @@
       "nom": "Ahmed",
       "metier": "Plombier",
       "ville": "Casablanca",
-      "image": "../Assets/images/plombier.png"
+      "service": "plombier",
+      "description": "Plombier professionnel avec 10 ans d'expérience. Spécialisé en installation et réparation.",
+      "tarif": "250-400 MAD",
+      "note": 4.8,
+      "disponible": true,
+      "image": "/images/plombier.jpg"
     },
     {
       "id": 2,
-      "nom": "Sara",
-      "metier": "Électricienne",
+      "nom": "Said",
+      "metier": "Électricien",
       "ville": "Rabat",
-      "image": "../Assets/images/electricien.jpg"
+      "service": "electricien",
+      "description": "Électricien certifié, installations sécurisées et conformes aux normes.",
+      "tarif": "300-500 MAD",
+      "note": 4.9,
+      "disponible": true,
+      "image": "/images/electricien.jpg"
     },
     {
       "id": 3,
       "nom": "Youssef",
       "metier": "Menuisier",
       "ville": "Marrakech",
-      "image": "../Assets/images/menuisier.png"
+      "service": "menuisier",
+      "description": "Artisan menuisier, création de meubles sur mesure et rénovation.",
+      "tarif": "400-600 MAD",
+      "note": 4.7,
+      "disponible": true,
+      "image": "/images/menuisier.jpg"
     },
     {
       "id": 4,
       "nom": "Khadija",
       "metier": "Coiffeuse",
       "ville": "Fès",
-      "image": "../Assets/images/coiffeuse.jpg"
+      "service": "coiffure",
+      "description": "Coiffeuse professionnelle, coupes modernes et soins capillaires.",
+      "tarif": "150-300 MAD",
+      "note": 4.6,
+      "disponible": true,
+      "image": "/images/coiffeuse.jpg"
     },
     {
       "id": 5,
       "nom": "Omar",
       "metier": "Peintre",
       "ville": "Tanger",
-      "image": "../Assets/images/peintre.jpg"
+      "service": "peinture",
+      "description": "Peintre en bâtiment, travaux intérieurs et extérieurs de qualité.",
+      "tarif": "200-350 MAD/m²",
+      "note": 4.5,
+      "disponible": true,
+      "image": "/images/peintre.jpg"
     },
     {
       "id": 6,
       "nom": "Imane",
       "metier": "Couturière",
       "ville": "Agadir",
-      "image": "../Assets/images/couturiere.jpg"
+      "service": "couture",
+      "description": "Couturière expérimentée, retouches et créations sur mesure.",
+      "tarif": "100-250 MAD",
+      "note": 4.8,
+      "disponible": true,
+      "image": "/images/couturier.jpg"
     },
     {
       "id": 7,
       "nom": "Hassan",
       "metier": "Technicien Climatisation",
       "ville": "Salé",
-      "image": "../Assets/images/climatisation.jpg"
+      "service": "climatisation",
+      "description": "Installation et maintenance de systèmes de climatisation.",
+      "tarif": "500-800 MAD",
+      "note": 4.7,
+      "disponible": true,
+      "image": "/images/climatisation.jpg"
     },
     {
       "id": 8,
       "nom": "Nadia",
       "metier": "Femme de ménage",
       "ville": "Kénitra",
-      "image": "../Assets/images/menage.jpg"
+      "service": "menage",
+      "description": "Nettoyage professionnel résidentiel et bureaux.",
+      "tarif": "150-250 MAD/heure",
+      "note": 4.9,
+      "disponible": true,
+      "image": "/images/menage.jpg"
+    },
+    {
+      "id": 9,
+      "nom": "Karim",
+      "metier": "Plombier",
+      "ville": "Casablanca",
+      "service": "plombier",
+      "description": "Expert en dépannage urgent et installation sanitaire.",
+      "tarif": "300-450 MAD",
+      "note": 4.6,
+      "disponible": true,
+      "image": "/images/plombier2.jpg"
+    },
+    {
+      "id": 10,
+      "nom": "Fatima",
+      "metier": "Électricienne",
+      "ville": "Rabat",
+      "service": "electricien",
+      "description": "Spécialiste en éclairage et domotique résidentielle.",
+      "tarif": "350-550 MAD",
+      "note": 4.8,
+      "disponible": true,
+      "image": "/images/electricien2.jpg"
+    },
+    {
+      "id": 11,
+      "nom": "Mohamed",
+      "metier": "Menuisier",
+      "ville": "Marrakech",
+      "service": "menuisier",
+      "description": "Spécialiste en meubles traditionnels marocains.",
+      "tarif": "450-700 MAD",
+      "note": 4.9,
+      "disponible": true,
+      "image": "/images/menuisier2.jpg"
+    },
+    {
+      "id": 12,
+      "nom": "Amina",
+      "metier": "Coiffeuse",
+      "ville": "Fès",
+      "service": "coiffure",
+      "description": "Spécialiste en coiffure de mariage et événements.",
+      "tarif": "200-400 MAD",
+      "note": 4.7,
+      "disponible": true,
+      "image": "/images/coiffeuse2.jpg"
     }
   ]
 }

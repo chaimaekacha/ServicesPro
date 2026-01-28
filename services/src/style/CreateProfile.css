@@ -1,0 +1,88 @@
+.profile-page {
+  min-height: 90vh;
+  background: #f3f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.profile-card {
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.profile-header {
+  background: #e0b62c;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.profile-header p {
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  background: #e5e7eb;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e0b62c;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.profile-form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile-form input,
+.profile-form select,
+.profile-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 15px;
+}
+
+.upload-box label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 10px;
+}
+
+.preview img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.btn-solid {
+  margin-top: 10px;
+  background:  #e0b62c;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
