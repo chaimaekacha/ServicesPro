@@ -65,13 +65,13 @@ function ProfilArtisan() {
           realisations: localStorage.getItem(`realisations_${id}`)
         });
 
-        // Méthode 1: Chercher dans localStorage
+        // Chercher dans localStorage
         const userData = JSON.parse(localStorage.getItem("userData"));
         
-        // Méthode 2: Si pas dans localStorage, vérifier dans sessionStorage
+        //  Si pas dans localStorage, vérifier dans sessionStorage
         const sessionUserData = JSON.parse(sessionStorage.getItem("userData"));
         
-        // Méthode 3: Créer un utilisateur de test pour le développement
+        //  Créer un utilisateur de test pour le développement
         let currentUser = userData || sessionUserData;
         
         if (!currentUser && process.env.NODE_ENV === 'development') {
@@ -673,7 +673,7 @@ function ProfilArtisan() {
         </section>
       </main>
 
-      {/* Modal d'ajout de réalisation (seulement pour l'utilisateur courant) */}
+      {/* Modal d'ajout de réalisation pour l'utilisateur courant*/}
       {isCurrentUser && showAddRealisationsModal && (
         <div className="superposition-modal" onClick={() => setShowAddRealisationsModal(false)}>
           <div className="contenu-modal modal-realisation" onClick={(e) => e.stopPropagation()}>

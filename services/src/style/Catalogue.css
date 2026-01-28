@@ -1,5 +1,3 @@
-/* Catalogue.css - Version avec icones horizontales et cartes carrées */
-
 .catalogue-container {
   padding: 20px;
   max-width: 1400px;
@@ -7,7 +5,6 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Section des filtres */
 .filters-section {
   margin-bottom: 30px;
   background: white;
@@ -136,7 +133,7 @@
   min-width: min-content;
 }
 
-/* Style des icones de service horizontales */
+/* les  icones de service horizontales */
 .service-icon-item {
   display: flex;
   flex-direction: column;
@@ -197,7 +194,6 @@
   }
 }
 
-/* Section des cartes CARRÉES */
 .cards-section {
   background: #f8f9fa;
   padding: 25px;
@@ -464,7 +460,7 @@
   transform: translateY(-2px);
 }
 
-/* Responsive design */
+/* Responsive */
 @media (max-width: 1200px) {
   .square-cards-grid {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

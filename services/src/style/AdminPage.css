@@ -1,7 +1,5 @@
 
-/* AdminPage.css */
 
-/* Variables */
 :root {
   --color-white: #ffffff;
   --color-gray-50: #f9fafb;
@@ -61,7 +59,6 @@
   --radius-2xl: 1.5rem;
 }
 
-/* Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -85,7 +82,6 @@ body {
   }
 }
 
-/* Header */
 .admin-header {
   margin-bottom: 2rem;
 }
@@ -175,7 +171,6 @@ body {
   border-color: var(--color-gray-300);
 }
 
-/* Stats Grid */
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -258,7 +253,6 @@ body {
   margin-top: 0.25rem;
 }
 
-/* Supervision Globale */
 .supervision-card {
   background: linear-gradient(135deg, var(--color-emerald-700) 0%, var(--color-emerald-800) 100%);
   border-radius: var(--radius-2xl);
@@ -361,7 +355,6 @@ body {
   letter-spacing: 0.05em;
 }
 
-/* Main Layout */
 .main-layout {
   display: grid;
   grid-template-columns: 1fr;
@@ -386,7 +379,6 @@ body {
   gap: 1.5rem;
 }
 
-/* Tabs */
 .tabs-container {
   background-color: var(--color-white);
   border-radius: var(--radius-2xl);
@@ -456,7 +448,6 @@ body {
   }
 }
 
-/* Validation Card */
 .validation-card {
   border: 2px solid var(--color-red-200);
   background-color: var(--color-red-50);
@@ -529,7 +520,6 @@ body {
   margin: 0;
 }
 
-/* Tables */
 .table-section {
   margin-top: 1.5rem;
 }
@@ -626,7 +616,6 @@ tbody tr:last-child td {
   border-bottom: none;
 }
 
-/* Badges */
 .badge {
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
@@ -814,7 +803,6 @@ tbody tr:last-child td {
   margin-top: 0.25rem;
 }
 
-/* Actions Grid */
 .actions-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -883,7 +871,6 @@ tbody tr:last-child td {
   line-height: 1.4;
 }
 
-/* Action Buttons (Moderation) */
 .action-buttons {
   display: flex;
   flex-direction: column;
@@ -950,7 +937,6 @@ tbody tr:last-child td {
   font-weight: 700;
 }
 
-/* Stars */
 .stars {
   display: flex;
   gap: 0.125rem;
@@ -984,7 +970,6 @@ tbody tr:last-child td {
   font-size: 1.125rem;
 }
 
-/* Quick Actions */
 .quick-actions-list {
   display: flex;
   flex-direction: column;
@@ -1056,7 +1041,6 @@ tbody tr:last-child td {
   font-size: 0.875rem;
 }
 
-/* Recent Activity */
 .activity-list {
   display: flex;
   flex-direction: column;
@@ -1114,7 +1098,6 @@ tbody tr:last-child td {
   display: block;
 }
 
-/* Export Card */
 .export-card {
   background: linear-gradient(135deg, var(--color-indigo-600) 0%, var(--color-indigo-800) 100%);
   border-radius: var(--radius-xl);
@@ -1164,7 +1147,6 @@ tbody tr:last-child td {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Mobile Responsive */
 @media (max-width: 640px) {
   .admin-title {
     font-size: 1.5rem;
@@ -1212,7 +1194,6 @@ tbody tr:last-child td {
   }
 }
 
-/* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;

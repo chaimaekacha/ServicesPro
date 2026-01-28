@@ -33,7 +33,6 @@ function DashboardArtisan() {
     }
     
     setArtisan(storedArtisan);
-    // Simuler des données de publications (à remplacer par API)
     const mockPublications = [
       { id: 1, title: "Rénovation Salle de Bain", category: "Plomberie", status: "Actif", views: 156, reservations: 12 },
       { id: 2, title: "Installation Électrique", category: "Électricité", status: "Actif", views: 89, reservations: 8 },
@@ -54,7 +53,6 @@ function DashboardArtisan() {
 
   return (
     <div className="dashboard-artisan">
-      {/* Header du Dashboard */}
       <div className="dashboard-header">
         <h1>Tableau de bord</h1>
         <button 
@@ -167,7 +165,6 @@ function DashboardArtisan() {
         </div>
       </div>
 
-      {/* Actions rapides */}
       <div className="quick-actions">
         <h2>Actions rapides</h2>
         <div className="actions-grid">

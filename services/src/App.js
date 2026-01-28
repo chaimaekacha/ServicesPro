@@ -21,7 +21,6 @@ import NouvellePublication from './pages/NouvellePublication';
 import ModifierPublication from './pages/ModifierPublication';
 import AvisArtisan from './pages/AvisArtisan';
 import Dashboard from './pages/Dashboard';
-import MonProfil from './pages/MonProfil';
 // Clients
 import ProfilClient from './pages/ProfilClient';
 import ReservationsClient from './pages/ReservationsClient';

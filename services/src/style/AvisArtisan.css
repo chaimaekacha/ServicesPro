@@ -21,7 +21,6 @@
   font-size: 1.1rem;
 }
 
-/* Section statistiques */
 .stats-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -141,7 +140,6 @@
   color: #1e293b;
 }
 
-/* Filtres */
 .filters-section {
   background: white;
   border-radius: 16px;
@@ -175,7 +173,6 @@
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
-/* Liste des avis */
 .avis-list {
   display: flex;
   flex-direction: column;
@@ -291,7 +288,6 @@
   margin: 0;
 }
 
-/* Réponses */
 .avis-reponse {
   background: #f0fdf4;
   border-radius: 12px;
@@ -378,7 +374,6 @@
   line-height: 1.6;
 }
 
-/* Animation pour les étoiles */
 @keyframes starPulse {
   0%, 100% {
     transform: scale(1);

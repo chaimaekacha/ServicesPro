@@ -59,7 +59,7 @@
   color: #6b7280;
 }
 
-/* PublicationsArtisan.css */
+
 .publications-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

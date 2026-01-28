@@ -210,7 +210,6 @@
   font-size: 18px;
 }
 
-/* Photos actuelles */
 .current-photos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -288,7 +287,6 @@
   font-style: italic;
 }
 
-/* Upload de nouvelles photos */
 .photos-upload {
   margin-top: 15px;
 }
@@ -351,7 +349,6 @@
   animation: spin 1s linear infinite;
 }
 
-/* Actions du formulaire */
 .form-actions {
   display: flex;
   justify-content: flex-end;
@@ -424,7 +421,6 @@
   animation: none;
 }
 
-/* Animation pour les modifications */
 @keyframes highlightChange {
   0% {
     background-color: #fef3c7;
